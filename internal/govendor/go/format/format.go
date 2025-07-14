@@ -27,8 +27,8 @@ import (
 
 // Keep these in sync with cmd/gofmt/gofmt.go.
 const (
-	tabWidth    = 8
-	printerMode = printer.UseSpaces | printer.TabIndent | printerNormalizeNumbers
+	tabWidth    = 4
+	printerMode = printer.UseSpaces | printerNormalizeNumbers
 
 	// printerNormalizeNumbers means to canonicalize number literal prefixes
 	// and exponents while printing. See https://golang.org/doc/go1.13#gofmt.
